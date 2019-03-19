@@ -9,3 +9,7 @@ I just got the inspiration of using nycflights13::flights. This dataset contains
 install.packages("https://cran.r-project.org/src/contrib/nycflights13_1.0.0.tar.gz", repos=NULL, method="libcurl")
 
 You should know that "flights" is a "tibble". Tibbles are data frames, but slightly tweaked to work better in the tidyverse. 
+
+# Big Data or large data sets are not that expensive:
+#"No longer, you need to spend money on upgrading your machines, instead it’s time to upgrade your knowledge of dealing with such #situations"
+Apart from data.table, there are several other packages for parallel computing available. But, I don’t see any need to any other package for data manipulation, once you become proficient with data.table.
